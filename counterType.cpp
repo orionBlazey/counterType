@@ -46,11 +46,11 @@ int main()
 {
 	counterType obj1(10);
 	int c;
-	cout << "Enter the value of counter (>0) : " << endl;
+	cout << "Enter the number you want : " << endl;
 	cin >> c;
 	obj1.setCounter(c);
 	cout << "Value of counter initially : " << obj1.getCounter() << endl;
-	cout << "Value of counter after Incrementing : " << obj1.increment() << endl;
-	cout << "Value of counter after Decrementing : " << obj1.decrement() << endl;
+	cout << "Value of counter after incrementing : " << obj1.increment() << endl;
+	cout << "Value of counter after decrementing : " << obj1.decrement() << endl;
 	cout << endl;
 }
